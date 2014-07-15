@@ -1,0 +1,446 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma,宋体,serif;
+    font-size:  12px;
+}
+html,body
+{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+/*盒子部分*/
+.box
+{
+    position:relative;
+    width: 100%;
+    height: 85%;
+    padding-top: 100px;
+    overflow: hidden;
+}
+.box1
+{
+    background:url("./40.jpg");
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+.box2
+{
+    background:white;
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+.article
+{
+    display:block;
+    height: 100%;
+    width: 100%;
+}
+div#n2
+{
+    background-color: #3C7300;
+}
+div#n4
+{
+    background-color: #BFDD62;
+}
+div#n6
+{
+    background-color: #938198;
+     -webkit-transition-duration: 1s;
+}
+div#n8
+{
+    background-color: #7C4D89;
+}
+/*导航栏部分*/
+div.lead
+{
+    position:absolute;
+    bottom: 0;
+    left: 0px;
+    width: 100%;
+    height: 100px;
+    background:white;
+    z-index: 5;
+    box-shadow: 2px 2px 3px gray;
+    border-radius: 5px;
+}
+img.team
+{
+    position:absolute;
+    left: 20px;
+    height: 100px;
+}
+.ziti
+{
+    font-family:"Microsoft Yahei","微软雅黑",Tahoma,Arial,Helvetica,STHeiti;
+    font-size: 26px;
+}
+.lead ul
+{
+    position:absolute;
+    left: 7%;
+    width: 82%;
+    height: 72%;
+}
+ul
+{
+    list-style: none;
+}
+li.leader
+{
+    float:left;
+    display:block;
+    position: relative;
+    bottom: 12px;
+    height: 100px;
+    width: 19%;
+    text-align: center;
+    line-height: 94px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-property: color;
+    border-left: 1px solid #E0E0E0;
+}
+li.c1:hover, .focus-part1
+{
+    background-color: #EF891C;
+    color: white;
+}
+li.c2:hover, .focus-part2
+{
+    background-color: #3C7300;
+    color: white;
+}
+li.c3:hover, .focus-part3
+{
+    background-color: #BFDD62;
+    color: white;
+}
+li.c4:hover, .focus-part4
+{
+    background-color: #938198;
+    color: white;
+}
+
+li.c5:hover, .focus-part5
+{
+    background-color: #7C4D89;
+    color: white;
+}
+/*图片库部分*/
+div.main
+{
+    width: 90%;
+    height: 129%;
+    position: relative;
+    left: 6%;
+    top: 5%;
+}
+div.arrowleft
+{
+    position: absolute;
+    left: 0px;
+    top: 45%;
+    left: 5%;
+    width: 50px;
+    height: 50px;
+    background: url("./arrow-left.png");
+    background-size: cover;
+    opacity: 0.3;
+    z-index: 3;
+}
+div.arrowleft:hover
+{
+    opacity: 1;
+}
+div.arrowright
+{
+    position: absolute;
+    right: 0;
+    top: 45%;
+    right: 1.4%;
+    width: 50px;
+    height: 50px;
+    background:url("./arrow-right.png");
+    background-size: cover;
+    opacity: 0.3;
+    z-index: 3;
+}
+div.arrowright:hover
+{
+    opacity: 1;
+}
+.left
+{
+    width: 33%;
+    height: 42%;
+    position: absolute;
+    left: 3%;
+    top: 7.5%;
+    z-index: 1;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 25px;
+}
+.center
+{
+    width: 58%;
+    height: 50%;
+    position: absolute;
+    left: 22%;
+    top: 4.2%;
+    z-index: 2;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 25px;
+}
+.right
+{
+    width: 33%;
+    height: 42%;
+    position: absolute;
+    left: 66%;
+    top: 7.5%;
+    z-index: 1;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 25px;
+}
+
+
+.one
+{
+    -webkit-transition-duration:0.8s;
+}
+.two
+{
+    -webkit-transition-duration:0.8s;
+}
+.three
+{
+    -webkit-transition-duration:0.8s;
+}
+.four
+{
+    -webkit-transition-duration:0.8s;
+}
+
+.none
+{
+    display: none;
+}
+/*其它*/
+.logo
+{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 300px;
+    height: 300px;
+    background:url("./39.png");
+    background-size: cover;
+}
+/*制作团队部分*/
+.boy
+{
+    position: absolute;
+    width: 290px;
+    height: 290px;
+    right: 1%;
+    top: 50%;
+    background: url("./42.png");
+    background-size: cover;
+    -webkit-transition-duration: 1s;
+}
+div.boy:hover
+{
+    background:url("./44.png");
+    -webkit-transform:rotateY(180deg);
+    background-size: cover;
+}
+.girl
+{
+    position: absolute;
+    left: 1%;
+    width: 290px;
+    height: 290px;
+    background: url("./41.png");
+    background-size: cover;
+    -webkit-transition-duration: 1s;
+}
+div.girl:hover
+{
+    background:url("./43.png");
+    -webkit-transform:rotateY(180deg);
+    background-size: cover;
+}
+.introduce
+{
+    width: 50%;
+    height: 70%;
+    position: absolute;
+    left: 25%;
+    top: 30%;
+    display: none;
+}
+
+/*学院之美部分*/
+.button {
+    min-height: 1.5em;
+    display: inline-block;
+    padding: 12px 36px;
+    margin: 40px 5px 5px 0px;
+    cursor: pointer;
+    opacity: 0.9;
+    color: #FFF;
+    font-size: 1em;
+    letter-spacing: 1px;
+    text-shadow: rgba(0,0,0,0.9) 0px 1px 2px;
+    background: #434343;
+    border: 1px solid #242424;
+    width: 60px;
+    text-align: center;
+    -webkit-border-radius: 4px;
+    -webkit-box-shadow: rgba(255,255,255,0.25) 0px 1px 0px;
+    -webkit-transition: all 0.1s linear;
+    -webkit-box-shadow: rgba(255,255,255,0.25) 0px 1px 0px, inset rgba(255,255,255,0.25) 0px 1px 0px, inset rgba(0,0,0,0.25) 0px 0px 0px, inset rgba(255,255,255,0.03) 0px 20px 0px, inset rgba(0,0,0,0.15) 0px -20px 20px, inset rgba(255,255,255,0.05) 0px 20px 20px;
+}
+.button:hover {
+    -webkit-box-shadow: rgba(0,0,0,0.5) 0px 2px 5px;
+    -webkit-box-shadow: rgba(0,0,0,0.5) 0px 2px 5px, inset rgba(255,255,255,0.25) 0px 1px 0px, inset rgba(0,0,0,0.25) 0px 0px 0px, inset rgba(255,255,255,0.03) 0px 20px 0px, inset rgba(0,0,0,0.15) 0px -20px 20px, inset rgba(255,255,255,0.05) 0px 20px 20px;
+}
+.button:active {
+    -webkit-box-shadow: rgba(255,255,255,0.25) 0px 1px 0px;
+    -webkit-box-shadow: rgba(255,255,255,0.25) 0px 1px 0px,inset rgba(255,255,255,0) 0px 1px 0px, inset rgba(0,0,0,0.5) 0px 0px 5px, inset rgba(255,255,255,0.03) 0px 20px 0px, inset rgba(0,0,0,0.15) 0px -20px 20px, inset rgba(255,255,255,0.05) 0px 20px 20px;
+}
+.shine {
+    display: block;
+    position: relative;
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,0)), color-stop(50%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0)));
+    background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 50%,rgba(255,255,255,0) 100%);
+    padding: 0px 12px;
+    top: -12px;
+    left: -24px;
+    height: 1px;
+    -webkit-box-shadow: rgba(255,255,255,0.2) 0px 1px 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+.button:hover .shine {
+    left: 24px;
+}
+.button:active .shine {
+    opacity: 0;
+}
+
+.button.gray {
+    background: #555;
+}
+.button.blue {
+    background: #3a617e;
+}
+.button.green {
+    background: #477343;
+}
+.button.red {
+    background: #723131;
+}
+.button.purple {
+    background: #4b3f5e;
+}
+.button.orange {
+    background: #624529;
+}
+.bt
+{
+    width: 100%;
+    height: 100%;
+}
+.bt1
+{
+    position: absolute;
+    left: 18%;
+    top: 20%;
+    z-index: 4;
+
+}
+.bt2
+{
+    position: absolute;
+    left: 18%;
+    top: 40%;
+    z-index: 4;
+
+}
+.bt3
+{
+    position: absolute;
+    left: 18%;
+    top: 60%;
+    z-index: 4;
+  
+}
+.btguodu
+{
+    top: 10px;
+}
+.jidian
+{
+    position: absolute;
+    left: 100%;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    -webkit-transition-duration: 1s;
+}
+.zhengchang
+{
+    left: 0;
+}
+.guodu
+{
+    left: -1343px;
+}
+.panel,.flip
+{
+    margin:0px;
+    padding:5px;
+    width: 89%;
+    text-align:center;
+    background-color:rgba(0,0,0,0);
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 5%;
+}
+div.panel
+{
+    height:500px;
+    display:none;
+}
+.flip
+{
+    opacity: 0.2;
+    cursor: pointer;
+    font-size: 20px;
+    height: 50px;
+}
+.flip-1
+{
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    background: url("./47.png");
+    background-size: cover;
+}
+div.flip:hover
+{
+    opacity: 1;
+}
